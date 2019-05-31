@@ -1,0 +1,26 @@
+In OOP languages and type theory, polymorphism is the provision of a single interface to entities of different types.
+
+Similarly, in TBI, polymorphism is the provision of a single character to refer to different meanings, (Polysemy is the capacity for a sign (e.g., a word, phrase, etc.) or signs to have multiple related meanings (sememes), i.e., a large semantic field. It is usually regarded as distinct from homonymy, in which the multiple meanings of a word may be unconnected or unrelated.
+
+Charles Fillmore and Beryl Atkins’ definition stipulates three elements: (i) the various senses of a polysemous word have a central origin, (ii) the links between these senses form a network, and (iii) understanding the ‘inner’ one contributes to understanding of the ‘outer’ one.[3]
+
+)or different writing format to refer to the same meamings.
+
+Example, 'one', 
+
+Example, 'son'
+
+[1] A polymorphic type is a type whose operations can also be applied to values of some other type, or types.[2] There are several fundamentally different kinds of polymorphism:
+If a function denotes different and potentially heterogeneous implementations depending on a limited range of individually specified types and combinations, it is called ad hoc polymorphism. Ad hoc polymorphism is supported in many languages using function overloading.
+If the code is written without mention of any specific type and thus can be used transparently with any number of new types, it is called parametric polymorphism. In the object-oriented programming community, this is often known as generics or generic programming. In the functional programming community, this is often simply called polymorphism.
+Subtyping (or inclusion polymorphism) is a concept wherein a name may denote instances of many different classes as long as they are related by some common superclass.[3] In object-oriented programming, this is often referred to simply as polymorphism.
+
+The interaction between parametric polymorphism and subtyping leads to the concepts of variance and bounded quantification.
+
+
+
+
+
+The polymophism played important roles in maintaining the characters unchanged in history due to that the mulitple meaning had to be met. 
+
+For example, the horizontal line that is used to denote 'one' could not be modified to veritcal line. Since it will lost the meaning of boundary of heaven and earth. 

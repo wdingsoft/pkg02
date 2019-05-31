@@ -1,0 +1,72 @@
+<html>
+	<head>
+		<title></title>
+		<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+		<link href="../../../theme000.css" rel="stylesheet" type="text/css" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+</script>
+
+<script>$(document).ready(function(){
+var src="f[old]er/foo/bar/x982j/se[c o]nd822.\njpgse[qa]ewew";
+  //alert(src);
+  var m = src.replace(/(\[\w+\])/g, "<sub>$1</sub>");
+  //alert(m);
+  
+  var notesArr = new Object();
+  $("ol li a[name]").each(function(i){
+    var s=$(this).attr("name");
+    alert(i+"="+s);
+    var idx = 1 + i;
+    notesArr[s]=""+idx;
+  });
+  
+  
+  src = $("body").html();
+  //alert(src);
+  src = src.replace(/(\[\w+\])/gm, function($1){
+    var s1=$1;
+    s1=s1.replace(/\[|\]/g,'');
+    var sidx = notesArr[s1];
+    return "<sup>[<a href='#"+s1+"'>"+sidx+"</a>]</sup>";
+    });
+  alert(src);
+  $("body").html(src);
+  
+  function getIdxOfNotes(s){
+    //alert(s);
+    var ret="";
+    $("a").each(function(i,v){
+        var name = $(this).attr("name");
+        if(!!name){
+            if(name===s){
+                //alert(s);
+                ret = s;
+            }
+        }
+    });
+    return ret;
+  };
+  
+
+  
+});</script>
+
+
+	</head>
+	<body>
+    <a>ss</a>
+    <p>
+		wewewewewe[old]er/foo/bar/x982j/se[co]nd822.\njpgse[qa]ewew
+        
+        </p><br>
+            <p>
+		f[old]er/foo/bar/x982j/se[co]nd822.\njpgse[qa]ewew
+        
+        </p>
+        <ol>
+        <li><a name='old'>old</a></li>
+        <li><a name='co'>co</a></li>
+        <li><a name='qa'>qa</a></li>
+        </ol>
+	</body>
+</html>

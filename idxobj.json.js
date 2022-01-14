@@ -1,45 +1,16 @@
 var idxobj = {
     "./": [
         {
-            "idxobj.json.js": 71486
+            "idxobj.json.js": 70987
         },
         {
             "idxor.html": 1517
-        },
-        {
-            "index.htm": 215531
         },
         {
             "index.html": 8257
         },
         {
             "indobj.json.js": 71377
-        },
-        {
-            "indusr.js": 24
-        }
-    ],
-    "indexer": [
-        {
-            "github_home.htm": 867
-        },
-        {
-            "index.htm": 6666
-        },
-        {
-            "index.html": 8257
-        },
-        {
-            "index.js": 24
-        },
-        {
-            "index.sh": 392
-        },
-        {
-            "index_watch.nod.js": 10972
-        },
-        {
-            "~make_htm.nd.js": 1587
         }
     ],
     "src": [],

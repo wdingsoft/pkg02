@@ -1,16 +1,10 @@
 var idxobj = {
     "./": [
         {
-            "idxobj.json.js": 71450
+            "idxobj.json.js": 72734
         },
         {
             "idxor.html": 1531
-        },
-        {
-            "index.html": 8257
-        },
-        {
-            "indobj.json.js": 71377
         }
     ],
     "src": [],
@@ -1955,6 +1949,9 @@ var idxobj = {
         }
     ],
     "src/pubdata/pictures/outside-tbi/handbook": [
+        {
+            "00.42.51.png": 202681
+        },
         {
             "16.33.20.png": 2858926
         },

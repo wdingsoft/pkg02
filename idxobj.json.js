@@ -1,7 +1,7 @@
 var idxobj = {
     "./": [
         {
-            "idxobj.json.js": 72681
+            "idxobj.json.js": 73700
         },
         {
             "idxor.html": 1531
@@ -2070,6 +2070,26 @@ var idxobj = {
         },
         {
             "Screen Shot 2022-01-15 at 01.13.31.png": 29001
+        }
+    ],
+    "src/pubdata/pictures/outside-tbi/handbook3": [
+        {
+            "01.01.25.png": 31506
+        },
+        {
+            "01.26.30.png": 24943
+        },
+        {
+            "01.27.12.png": 30026
+        },
+        {
+            "01.29.11.png": 39601
+        },
+        {
+            "01.31.22.png": 48094
+        },
+        {
+            "01.33.26.png": 62652
         }
     ],
     "src/pubdata/pictures/outside-tbi/heirogplyphics_and_tbi_peng": [

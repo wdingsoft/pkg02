@@ -2090,6 +2090,9 @@ var idxobj = {
         },
         {
             "01.33.26.png": 62652
+        },
+        {
+            "hands08.05.50.png": 105372
         }
     ],
     "src/pubdata/pictures/outside-tbi/heirogplyphics_and_tbi_peng": [
